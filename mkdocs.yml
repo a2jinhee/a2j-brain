@@ -1,12 +1,13 @@
 site_name: a2j-brain
 
 theme:
+    custom_dir: overrides
+    logo: assets/images/logo.png
     name: 'material'
     icon:
-      logo: octicons/container-16
+      # logo: octicons/container-16
       admonition:
         example: octicons/code-square-16
-    favicon: assets/nerd.ico
 
     palette:
     # Light mode
