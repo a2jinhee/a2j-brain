@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "iAWriterQuattro";
+    src: url("overrides/fonts/iA Writer Quattro/") format('truetype');
+  }
+  
+:root {
+    --md-text-font: "iAWriterQuattro"; 
+  }
