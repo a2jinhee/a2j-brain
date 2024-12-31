@@ -3,9 +3,10 @@ site_name: a2j-brain
 theme:
     name: 'material'
     icon:
-      logo: material/cube-outline
+      logo: octicons/container-16
       admonition:
         example: octicons/code-square-16
+    favicon: assets/nerd.ico
 
     palette:
     # Light mode
