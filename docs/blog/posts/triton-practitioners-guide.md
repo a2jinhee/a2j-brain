@@ -6,6 +6,10 @@ tags:
   - notes
 ---
 
+Notes for [Lecture 14: Practitioners Guide to Triton](https://www.youtube.com/watch?v=DdTsX6DQk24)
+
+<!-- more -->
+
 :fontawesome-solid-code: ***indicates that code snippet is included in the [attached notebook.](https://github.com/gpu-mode/lectures/blob/main/lecture_014/A_Practitioners_Guide_to_Triton.ipynb)*** 
 
 ### Is your AI model not fast enough? 
@@ -24,7 +28,6 @@ tags:
 	- `print_if`: print sth, depending on conditions on pids
 
 ### Programming model 
-
 - **CUDA** computation unit: `block > thread`
 	- All threads in a block run on the same SM and share the same Shared Memory.
 	- Each thread computes on ==scalars==. 
